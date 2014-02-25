@@ -1,0 +1,196 @@
+/*
+THEME NAME: webd 252. 2014
+DESCRIPTION: a theme for course webd 252, 2014
+VERSION: 1.0
+AUTHOR: Lana Milley
+*/
+
+body {
+	background-image:url('http://www.lanamilley.com/webd252/img/bg-webd252.png');
+	background-repeat:repeat;
+	padding: 0px;
+	margin: 0;	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+}
+
+
+#wrapper {
+	width: 1020px;
+	margin: 0px auto 20px auto;
+	padding: 0 0 20px 0;	
+	background-color: #eff0f0;
+	min-height: 1100px;	
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+	-webkit-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+}
+
+
+#header h1 {margin-top: -999px; }
+a {color: #6a6d71; }
+a:hover {color: #6a6d71; }
+
+/*Changing the Header Image*/
+#header { 
+	background-repeat:repeat;
+	height: 200px;
+	width: 1020px;
+}
+
+#webd252 { 
+	background-repeat:repeat;
+	height: 200px;
+	width: 1020px;
+}
+
+article {
+	background-color: #f7f8f8;
+	width: 680px;
+	padding: 20px;
+	margin: 0 30px 20px 30px;
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+	-webkit-box-shadow: 0px 1px 1px #949495;
+	-moz-box-shadow: 0px 1px 1px #949495;
+	box-shadow: 0px 1px 1px #949495;
+}
+
+article h1{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #5a7c6a;
+}
+
+article h2{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #545b59;
+}
+
+aside {
+	border-left: 1px solid #ccc;
+	float: right;
+	margin-left: 124px;
+	padding-left: 24px;
+	width: 220px;
+	list-style-type: none;
+}
+
+aside h1,h2{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #5a7c6a;
+}
+
+aside ul {
+	list-style-type: none; 
+	list-style-image: none; 
+	margin-left: -40px;
+	/*font-size: 12px;*/
+}
+
+aside li {
+	padding-bottom: 6px;
+}
+
+
+nav {
+	margin-top: 0;
+	margin-bottom: 80px;
+	padding-top: 34px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+nav ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none;}
+nav li {display: inline; }
+nav ul li a {text-decoration:none;  margin: 20px;
+	padding: 40px 60px 40px 60px; color: #fff;
+	background: #ccc; border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;}
+nav ul li a:hover {color: #fff;
+	background: #a9b3ae; }
+
+
+
+li.current-menu-item a {
+	text-decoration: none;
+	background: #a9b3ae; border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+	-webkit-box-shadow: 0px 1px 1px #5d5d5d;
+	-moz-box-shadow: 0px 1px 1px #5d5d5d;
+	box-shadow: 0px 1px 1px #5d5d5d;
+}
+
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #f7f8f8;
+	text-align: center;
+	font-size: 14px;
+}
+
+footer a {text-decoration:none;  color: #f7f8f8;}
+footer a:hover {color: #f7f8f8; }
+
+
+/*CUSTOM SEARCH*/
+#searchsubmit {
+	width: 155px;
+	color: #fff;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 22px;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	background: #a9b3ae; 
+	border: 0;
+}
+
+#searchform input  {
+	margin-top: 7px;
+	width: 155px; 
+	height: 30px;
+	border: 1px solid #ccc;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+
+/*custom look - using CODE*/
+pre {border-left: solid 2px #ccc;
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 10px; 
+ 	color: #000; 
+	margin: 14px; 
+	padding:10px; 
+	background: #ebedec
+}
+
+
+/*previous and next page links*/
+#previous {
+	color: #6b7971;
+	font-size: 14px;
+	float: left;
+}
+
+#next {
+	color: #6b7971;
+	font-size: 14px;
+	float: right;
+}
+
+
+
